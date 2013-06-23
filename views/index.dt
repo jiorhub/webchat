@@ -1,4 +1,5 @@
 extends base
 
 block content
-	p(ng-init=" name='World' ") Hello {{ name }}
+	p Hello {{ name }}!
+	input(ng-model="name")
