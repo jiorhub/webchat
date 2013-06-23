@@ -1,0 +1,12 @@
+{
+	"name": "webchat",
+	"description": "Web Chat App",
+	"homepage": "http://chat.proslon.ru",
+	"copyright": "Copyright © 2013, Jior",
+	"authors": [
+		"Jior"
+	],
+	"dependencies": {
+	    "vibe-d": "~master"
+	}
+}

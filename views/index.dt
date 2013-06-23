@@ -1,0 +1,4 @@
+extends base
+
+block content
+	p(ng-init=" name='World' ") Hello {{ name }}

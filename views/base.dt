@@ -1,0 +1,7 @@
+!!! 5
+html
+	head
+		title WebChat
+		script(src="/static/libjs/angular.min.js")
+	body(ng-app="")
+		block content
