@@ -1,0 +1,56 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: gray url('../images/background.png') scroll repeat 0 0;
+}
+
+#b-main-wrapper {
+	width: 1024px;
+	margin: 15px auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 10px black;
+	background-color: #fff;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#b-chat {
+	float: left;
+	margin-right: 10px;
+}
+
+#chat {
+	width: 730px;
+	height: 400px;
+	overflow: auto;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+#b-message {
+	width: 724px;
+	height: 100px;
+	margin: 5px; 
+}
+
+#message {
+	float: left;
+	height: 90px;
+    width: 672px;
+}
+
+#send-button {
+	float: left;
+	height: 96px;
+}
+
+#b-contacts {
+	float: left;
+	height: 450px;
+	width: 274px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
