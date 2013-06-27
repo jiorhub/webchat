@@ -54,3 +54,38 @@ body {
 	border: 1px solid gray;
 	border-radius: 10px;
 }
+
+
+#chat .line {
+	margin: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+
+
+#chat .line .user-info {
+	background-color: #ccc;
+	padding: 3px;
+	color: blue;
+}
+
+#chat .line .user-info-owner {
+	color: red;
+}
+
+#chat .line .user-info-system {
+	color: yellow;
+}
+
+#chat .line .text {
+	padding: 3px;
+}
+
+#b-login table {
+	margin: 250px auto;
+}
+
+#b-login table td {
+	padding: 10px;
+}

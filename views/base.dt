@@ -4,15 +4,8 @@ html(lang="ru")
 		meta(charset="utf-8")
 		title WebChat
 		link(href="/static/css/base.css", rel="stylesheet")
+		script(src="/static/lib/jquery-1.9.1.min.js")
+		block js
 	body
 		div#b-main-wrapper
-			div#b-chat
-				div#chat
-				div#b-message
-					textarea#message
-					input#send-button(type="submit", value="ОК")
-			div#b-contacts
-				div#contacts
-				div#status
-		script(src="/static/lib/jquery-1.9.1.min.js")
-		script(src="/static/js/app.js")
+			block content

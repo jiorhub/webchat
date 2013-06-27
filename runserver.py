@@ -58,7 +58,7 @@ class DUB:
 					self.start()
 				else:
 					print "Error build"
-					sys.exit(0)
+					#sys.exit(0)
 			else:
 				self.start()
 
